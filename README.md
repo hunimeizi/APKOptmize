@@ -3,7 +3,8 @@
 1.svg   app:srcCompat <br/>
 2.着色器  android:tint="@color/colorAccent" <br/>
 3.资源打包配置 resConfigs('zh-rCN') <br/>
-4.动态库的打包配置 sourceSets {<br/>
+4.动态库的打包配置 <br/>
+              sourceSets {<br/>
                   main{<br/>
                       jniLibs.srcDirs = ['libs']<br/>
                   }<br/>
